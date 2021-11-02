@@ -21,7 +21,7 @@ public class ConnectionManager {
 		statement.setString(2, new SimpleDateFormat("dd.MM.yyyy  HH:mm:ss").format(new Date())); //Format a new Data
 		statement.setString(3, action);
 		statement.setInt(4, player.getName());
-		statement.setString(5, Bukkit.getServer().getPort()); //Get the Port of the Server
+		statement.setString(5, Bukkit.getServer().getPort()); //Get the Port of the Server 
 		statement.execute(); //Add a new entry
 		
 	}
