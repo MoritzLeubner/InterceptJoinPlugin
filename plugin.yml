@@ -1,0 +1,8 @@
+name: InterceptJoinPlugin
+version: 1.4.2
+main: interceptjoin.leubner.main.Main
+
+commands:
+   getconnections:
+      description: Get last connections
+      permission: connection.get
