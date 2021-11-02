@@ -1,8 +1,8 @@
-package connection.main;
+package interceptjoin.leubner.main;
 
-import connection.listeners.JoinListener;
-import connection.listeners.LeaveListener;
-import connections.commands.GetConnectionsCommand;
+import interceptjoin.leubner.listeners.JoinListener;
+import interceptjoin.leubner.listeners.LeaveListener;
+import interceptjoin.leubner.commands.GetConnectionsCommand;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
