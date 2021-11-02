@@ -18,7 +18,7 @@ public class Main extends JavaPlugin{
 	public static boolean error;
 	
 	public void onEnable() {
-        loadMySQL(); //Connect to MySQL
+                loadMySQL(); //Connect to MySQL
 		plugin = this; //set Main Class
 		getCommand("getconnections").setExecutor(new GetConnectionsCommand());
 	
