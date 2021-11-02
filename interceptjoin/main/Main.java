@@ -24,7 +24,7 @@ public class Main extends JavaPlugin{
 	
 		
 		PluginManager pluginManager = getServer().getPluginManager();
-		pluginManager.registerEvents(new LeaveListener(), this);  //get Plugin Manager and register Events
+		pluginManager.registerEvents(new LeaveListener(), this);  //get Plugin Manager and register Events 
 		pluginManager.registerEvents(new JoinListener(), this);
 		System.out.println("InterceptJoin-Plugin loaded successfull");
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(plugin, new Runnable() {
